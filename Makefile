@@ -6,7 +6,7 @@
 all: build run
 
 build:
-	gcc -o main ./LED_driver/main.c ./LED_driver/led_driver.c
+	gcc -o main ./LED_driver/main.c ./LED_driver/led_driver.c -I.
 
 run:
 	./main
